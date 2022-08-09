@@ -1,0 +1,8 @@
+.border {
+    padding: 6%;
+    background-image: url(./1ramka\(угол\).png), url(./2ramka\(угол\).png), url(./3ramka\(угол\).png), url(./4ramka\(угол\).png), 
+    url(./ramka\(vertical\).png), url(./ramka\(vertical\).png), url(./ramka\(horizontal\).png), url(./ramka\(horizontal\).png);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat-y, repeat-y, repeat-x, repeat-x;
+    background-position: left top, right top, right bottom, left bottom, left top, right top, left top, left bottom;
+    font-size: 1.5em;
+}
