@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <style>
+
+        li {
+            list-style-type: none;
+            width: 78px;
+            height: 78px;
+            background-image: url(./star0.png);
+            background-repeat: no-repeat;
+            display: inline-block;
+        }
+
+        ul:hover li {
+            background-image: url(./star1.png);
+        }
+
+        li:hover~li {
+            background-image: url(./star0.png);
+        }
+
+    </style>
+
+    <title>stars</title>
+</head>
+<body>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</body>
+</html>
