@@ -48,11 +48,12 @@ img {
     padding-left: 15px;
 }
 
-.main-content::after {
-}
-
 .main-content {
-    height: 601px;
+    height: inherit;
+    background-image: url(./field-hockey.png);
+    background-size: 150px;
+    background-position: center right;
+    background-repeat: repeat-y;
 }
 
 
@@ -60,20 +61,9 @@ img {
     margin: 0 15px 0 200px;
 }
 
-@media (min-width:621px) {
-    .main-content::after {
-        content: "";
-        background: url(./field-hockey.png);
-        opacity: 0.2;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        position: absolute;
-        z-index: -1;
-        background-size: 150px;
-        background-position: right;
-        background-repeat: repeat-y;
+@media (max-width:621px) {
+    .main-content {
+        background-image: none;
     }
 }
 
