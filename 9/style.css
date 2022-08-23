@@ -1,0 +1,162 @@
+body {
+    background-color: #383838;
+}
+
+main {
+    background-image: url(./map_concert.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: 1050px;
+    background-position: left center;
+}
+
+h4 {
+    color: white;
+    margin: 0;
+    font-size: 16px;
+    margin-bottom: 1px;
+}
+
+p {
+    color: darkgrey;
+    margin: 0;
+    font-size: 15px;
+    font-style: italic;
+    margin-bottom: 9px;
+}
+
+a {
+    color: white;
+    display: flex;
+    text-decoration: none;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2244a;
+    font-size: 14.5px;
+}
+
+.animation1 {
+    animation-delay: 1.5s;
+    animation-duration: 3s;
+}
+.animation2 {
+    animation-delay: 2s;
+    animation-duration: 4s;
+}
+.animation3 {
+    animation-delay: 0.8s;
+    animation-duration: 3.5s;
+}
+.animation4 {
+    animation-duration: 3.2s;
+}
+
+.block {
+    opacity: 0;
+    padding: 9px;
+    font-family: sans-serif;
+    background-color: #333333;
+    margin: 0 auto;
+    width: 182px;
+    transition: 2s;
+    box-shadow: 4px 4px 0 1px rgb(0 0 0 / 15%);
+    transform: rotateY(90deg);
+    height: 82px;
+    position: relative;
+    top: -110px;
+    left: -20px;
+}
+
+.circles {
+    animation-name: circles;
+    animation-iteration-count: infinite;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    position: relative;
+    top: -2px;
+    left: 0px;
+}
+
+.circles:hover {
+    animation-play-state: paused;
+}
+
+.circles-block {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+@keyframes circles {
+    from {
+        border: 2px solid red;
+    }
+
+    50% {
+        border: 5px solid red;
+        position: relative;
+        top: -24px;
+        left: -22px;
+        padding: 17px;
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+.coord1 {
+    position: absolute;
+    left: 457px;
+    top: 177px;
+}
+.coord2 {
+    position: absolute;
+    left: 637px;
+    top: 252px;
+}
+.coord3 {
+    position: absolute;
+    left: 414px;
+    top: 413px;
+}
+.coord4 {
+    position: absolute;
+    left: 165px;
+    top: 519px;
+}
+
+.point {
+    background: none;
+    border-radius: 50%;
+    z-index: 1;
+    width: 17px;
+    height: 17px;
+}
+
+.point:hover .block {
+    opacity: 1;
+    transform: rotateY(0deg);
+}
+
+.point:hover .triangle {
+    opacity: 1;
+    border-top: 9px solid #333333;
+    left: 2px;
+}
+
+.triangle {
+    width: 0;
+    opacity: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 9px solid #333333;
+    position: relative;
+    top: -110px;
+    left: 75px;
+    transition: 2s;
+}
