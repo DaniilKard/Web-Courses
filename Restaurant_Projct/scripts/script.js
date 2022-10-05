@@ -20,7 +20,6 @@ btnNext.addEventListener("click", function () {
     viewSliders[viewSlide].style.border = "1px solid orange";
     viewSliders[viewSlide].style.backgroundColor = "#E5E5E5";
     slider.style.left = -viewSlide * viewport + "px";
-
 });
 
 btnPrev.addEventListener("click", function () {
