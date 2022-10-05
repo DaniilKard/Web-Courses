@@ -1,0 +1,57 @@
+@media (max-width: 1360px) {
+
+    .cooks__images_img:nth-child(3) {
+        display: none;
+    }
+
+    .dishes__blocks_img {
+        display: none;
+    }
+
+    .gallery__blocks img {
+        height: 334px;
+    }
+
+    .gallery__blocks_block:nth-child(1) {
+        display: none;
+    }
+
+    .gallery__rectangle-right, .gallery__rectangle-left {
+        display: none;
+    }
+
+    .header {
+        margin-top: 40px;
+        justify-content: space-between;
+    }
+
+    .header__logo {
+        margin-left: 12%;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .header__menu_burger {
+        display: block;
+    }
+
+    .history {
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .menu__blocks_block:nth-child(3) {
+        display: none;
+    }
+
+    .order {
+        gap: unset;
+    }
+
+    .top__greeting {
+        padding: 429px 0 0 0;
+        max-width: 615px;
+    }
+}

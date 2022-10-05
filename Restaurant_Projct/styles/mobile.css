@@ -1,0 +1,193 @@
+@media (max-width: 600px) {
+
+    h2 {
+        font-size: 54px;
+    }
+
+    .benefits__block {
+        width: 290px;
+        height: 276px;
+    }
+
+    .benefits__block_bottom {
+        font-size: 22px;
+    }
+
+    .benefits__block_img {
+        margin-top: 6px;
+    }
+
+    .benefits__block_middle {
+        margin-bottom: 15px;
+    }
+
+    .comments__btn-back {
+        width: 40px;
+        height: 40px;
+        left: 15px;
+    }
+    .comments__btn-back_arrow {
+        border-top-width: 10px;
+        border-right-width: 20px;
+        border-bottom-width: 10px;
+    }
+
+    .comments__btn-forw {
+        width: 40px;
+        height: 40px;
+        right: 15px;
+    }
+
+    .comments__btn-forw_arrow {
+        border-top-width: 10px;
+        border-left-width: 20px;
+        border-bottom-width: 10px;
+        margin-left: 7px;
+    }
+
+    .comments__slider_elem {
+        margin-top: 32px;
+    }
+
+    .comments__slider_elem_comment {
+        font-size: 20px;
+    }
+
+    .comments__slider_elem_img {
+        height: 100px;
+    }
+
+    .cooks {
+        margin-bottom: 70px;
+    }
+
+    .cooks__images_img {
+        height: 380px;
+    }
+
+    .dishes__blocks {
+        height: auto;    
+    }
+
+    .dishes__blocks_dishes_dish {
+        padding: 0 10px;
+    }
+
+    .dishes__blocks_dishes_dish_img {
+        width: 130px;
+    }
+
+    .dishes__headline {
+        font-size: 40px;
+        margin-bottom: 90px;
+    }
+
+    .header__logo a img {
+        width: 45px;
+    }
+
+    .header__menu_burger_button {
+        top: -2px;
+    }
+
+    .header__menu_burger_content_item {
+        font-size: 14px;
+        padding: 15px 0;
+        width: 100%;
+    }
+
+    .history {
+        gap: 30px;
+        margin-bottom: 100px;
+    }
+
+    .history__images {
+        padding: 0 15px;
+    }
+
+    .history__images_img {
+        width: 100%;
+    }
+
+    .history__text {
+        width: 100%;
+    }
+
+    .history__text_blocks {
+        gap: 20px;
+    }
+
+    .history__text_caption, .menu__headline, .gallery__headline, .cooks__headline {
+        font-size: 40px;
+    }
+
+    .menu {
+        height: 980px;
+    }
+
+    .menu__blocks_block {
+        height: 510px;
+        width: 290px;
+    }
+
+    .menu__blocks_block_content {
+        width: 100%;
+    }
+
+    .menu__blocks_block_content_button {
+        width: 220px;
+        height: 50px;
+    }
+
+    .menu__blocks_block_content_headline {
+        font-size: 26px;
+    }
+
+    .menu__blocks_block_content_img {
+        width: 225px;
+        margin: 80px 0 18px;
+    }
+
+    .menu__blocks_block_content_paragraph {
+        font-size: 16px;
+    }
+
+    .menu__blocks_block_mark {
+        width: 130px;
+        height: 36px;
+        font-size: 13px;
+    }
+
+    .order {
+        gap: 70px;
+    }
+
+    .order__text_headline {
+        font-size: 30px;
+    }
+
+    .top {
+        height: 800px;
+    }
+
+    .top__greeting {
+        padding-top: 300px;
+    }
+
+    .top__greeting_lines {
+        font-size: 15px;
+    }
+
+    .top__greeting_lines::before, .top__greeting_lines::after {
+        display: none;
+    }
+
+    .top__greeting_middle {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .top__greeting_top {
+        font-size: 30px;
+    }
+}
